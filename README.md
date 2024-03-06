@@ -6,7 +6,7 @@
 </br>
 </br>
 1. Visual Studio Code를 설치하세요. [설치 링크](https://code.visualstudio.com/docs/?dv=win64user)(필수는 아니지만, 있으면 편함)
-2. 아래 버튼에서 ```[Download Zip]``` 버튼으로 소스코드를 다운받은 뒤, 봇을 실행할 폴더에서 압축을 해제하세요.</br> ![Screenshot 2024-03-06 9 52 28 AM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/22e5b1c9-4682-4462-b107-bb187f068702)
+2. 소스 폴더에 ```<>Code``` 버튼을 누른 뒤, ```[Download Zip]``` 버튼으로 소스코드를 다운받은 뒤, 봇을 실행할 폴더에서 압축을 해제하세요.</br> ![Screenshot 2024-03-06 9 52 28 AM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/22e5b1c9-4682-4462-b107-bb187f068702)
 3. [디스코드 개발자 포털](https://discord.com/developers/applications)에 접속해서 ```[New Application]``` 버튼을 눌러 애플리케이션을 만드세요. </br>![Screenshot 2024-03-06 11 41 58 AM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/42204714-6f1b-4838-9263-457a09bc6393)
 4. 이 버튼을 눌러 봇 메뉴로 들어가세요.</br>![Screenshot 2024-03-06 11 40 35 AM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/f088dd5b-4d63-4cae-91fd-bb4f5b80c3b0)
 5. 봇 메뉴에서는 봇의 이름을 바꿀 수 있습니다.
