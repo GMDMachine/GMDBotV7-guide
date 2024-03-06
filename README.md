@@ -25,10 +25,11 @@ npm install --save-dev eslint
 	"guildId": "당신이 봇을 개발하려는 서버의 ID"
 }
 ```
-9. 명령어를 추가하는 방법은 여기서 설명하긴 너무 기니 간단히 설명하겠습니다. 프로젝트 폴더에 기본적으로 있는 ```/commands/utility/``` 폴더에 ```ping.js``` 파일이 있습니다.
-10. 이 파일의 ```.setName("핑")```부분은 명령어 이름(띄어쓰기가 있으면 안 됨, ```.setDescription("퐁으로 대답해드려요!"),``` 이 부분은 디스코드에서 띄워주는 명령어 설명, ```await interaction.reply("퐁!");```이 부분은 봇이 그 명령어를 쳤을때 뭐라고 대답할지 설정합니다. 새로운 명령어를 만들고 싶다면 ```ping.js``` 파일을 복사하면 됩니다.
-11. 자세한 내용은 [이 링크](https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files)와 [이 링크](https://discordjs.guide/slash-commands/advanced-creation.html#option-types)를 참조하세요.
-12. 서버에 봇을 추가해봅시다. 왼쪽의 OAuth2 탭에 들어가세요.</br>![Screenshot 2024-03-06 12 58 57 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/179b1906-d2bb-4da7-bde3-d0b3e062478b)
-13. 밑으로 쭉 내려가 권한 두 개를 키세요.(위에는 bot, 아래는 Administrator)</br>![Screenshot 2024-03-06 12 59 58 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/cad28399-7823-4e7d-bc89-bc4126346795)</br>![Screenshot 2024-03-06 1 01 12 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/123162e3-7d6b-4413-9be6-9e30083c3c8c)
-14. 맨 아래 생긴 링크를 Copy 버튼으로 복사한 뒤 주소에 들어가 봇을 서버에 추가하세요. (아까 ID를 넣은 그 서버)</br>![Screenshot 2024-03-06 1 05 09 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/0c0f2aed-5300-485d-b585-88aaef4327c9)
-15. 이제, 프로젝트 폴더에 있는 ```start.cmd``` 파일을 실행하여 봇을 실행시키세요!
+9. 위 파일의 서버 ID는 디스코드에서 개발자 모드 활성화 후 서버 아이콘에 우클릭 후 서버 ID 복사로 얻을 수 있습니다.
+10. 명령어를 추가하는 방법은 여기서 설명하긴 너무 기니 간단히 설명하겠습니다. 프로젝트 폴더에 기본적으로 있는 ```/commands/utility/``` 폴더에 ```ping.js``` 파일이 있습니다.
+11. 이 파일의 ```.setName("핑")```부분은 명령어 이름(띄어쓰기가 있으면 안 됨, ```.setDescription("퐁으로 대답해드려요!"),``` 이 부분은 디스코드에서 띄워주는 명령어 설명, ```await interaction.reply("퐁!");```이 부분은 봇이 그 명령어를 쳤을때 뭐라고 대답할지 설정합니다. 새로운 명령어를 만들고 싶다면 ```ping.js``` 파일을 복사하면 됩니다.
+12. 자세한 내용은 [이 링크](https://discordjs.guide/creating-your-bot/slash-commands.html#individual-command-files)와 [이 링크](https://discordjs.guide/slash-commands/advanced-creation.html#option-types)를 참조하세요.
+13. 서버에 봇을 추가해봅시다. 왼쪽의 OAuth2 탭에 들어가세요.</br>![Screenshot 2024-03-06 12 58 57 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/179b1906-d2bb-4da7-bde3-d0b3e062478b)
+14. 밑으로 쭉 내려가 권한 두 개를 키세요.(위에는 bot, 아래는 Administrator)</br>![Screenshot 2024-03-06 12 59 58 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/cad28399-7823-4e7d-bc89-bc4126346795)</br>![Screenshot 2024-03-06 1 01 12 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/123162e3-7d6b-4413-9be6-9e30083c3c8c)
+15. 맨 아래 생긴 링크를 Copy 버튼으로 복사한 뒤 주소에 들어가 봇을 서버에 추가하세요. (아까 ID를 넣은 그 서버)</br>![Screenshot 2024-03-06 1 05 09 PM](https://github.com/GMDMachine/GMDBotV7-guide/assets/161696961/0c0f2aed-5300-485d-b585-88aaef4327c9)
+16. 이제, 프로젝트 폴더에 있는 ```start.cmd``` 파일을 실행하여 봇을 실행시키세요!
