@@ -1,6 +1,7 @@
 # GMDBotV7-guide
 
-지메기봇 v7 소스코드로 봇 만들기!  
+## 모든 스크립트는 Windows 11 기준으로 작성되었으며, 이하 버전 밎 Mac, Linux에서는 작동 하지 않을 수 있습니다.
+### 지메기봇 v7 소스코드로 봇 만들기!  
 참고한 사이트: [여기](https://discordjs.guide)
 </br>
 </br>
