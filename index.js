@@ -1,8 +1,8 @@
-// Require the necessary discord.js classes
+// discord.js 구성 요소 가져오기
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
 
-// Create a new client instance
+// 클라이언트 만들기
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
 //단 한번만 실행되는 함수
