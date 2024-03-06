@@ -9,7 +9,7 @@ module.exports = {
   },
 };
 
-/* ENGLISH VERSION 한국어 제작 시 삭제 가능
+/* ENGLISH VERSION // 한국어 제작 시 삭제 가능
 const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
