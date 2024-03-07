@@ -18,6 +18,7 @@ npm install discord.js
 npm install --save-dev eslint
 ```
 8. 이제 프로젝트 폴더에 ```config.json``` 파일을 만들고, 아래의 내용을 적으세요
+## 경고. 절대로 토큰을 외부에 유출하지 마세요!
 ```json
 {
 	"token": "봇의 디스코드토큰",
