@@ -33,7 +33,7 @@ for (const folder of commandFolders) {
 		}
 	}
 }
-//C
+//인터랙션
 client.on(Events.InteractionCreate, interaction => {
 	console.log(interaction);
 });
